@@ -1,0 +1,35 @@
+#data type
+
+name = "winyu phuthognkam"
+age = 15
+men = True
+Women = False
+money = 20000.1
+
+print (type(name), name)
+print (type(age), age)
+print (type(men), men)
+print (type(Women), Women)
+print (type(money), money)
+
+#operator
+#ตัวดำเนินการทางคณิตศาสตร์
+number1 = 45
+number2 = 30
+
+print(number1+number2)
+print(number1-number2)
+print(number1*number2)
+print(number1/number2)
+
+#loop
+for i in range(10):
+    i = i+1
+    if i>5 and i<=7:
+        print (i)
+
+firstname = "Winyou"
+lastname = "Phuthongkam"
+friend = "Fin"
+for x in range (10):
+    print(firstname+lastname+friend)
